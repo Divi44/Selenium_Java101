@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LambdaTest Parallel Suite" parallel="tests" thread-count="3">
+  <test name="Simple Form Demo Test">
+    <classes>
+      <class name="com.example.SimpleFormDemoTest"/>
+    </classes>
+  </test>
+
+  <test name="Drag & Drop Sliders Test">
+    <classes>
+      <class name="com.example.DragAndDropSlidersTest"/>
+    </classes>
+  </test>
+
+  <test name="Chrome Test B (Placeholder)">
+    <classes>
+      <class name="com.example.LambdaTestParallel"/>
+    </classes>
+  </test>
+</suite>
